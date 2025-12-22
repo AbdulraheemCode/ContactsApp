@@ -343,13 +343,15 @@ namespace ContactsConsoleApp_2
             Console.WriteLine("\n");
         }
 
+        public static void TEST_FUN()
+        {
+            Console.WriteLine("This is a Test Function");
+        }
+
         static void Main(string[] args)
         {
 
-            int[] Arr = FillArray(20);
-            PrintArray(Arr);
-            PrintResultSumArr("Even", SumEvenNumbersOfArray(Arr));
-            PrintResultSumArr("Odd", SumOddNumbersOfArray(Arr));
+            TEST_FUN();
 
             /*
             //TestFindContact(1);
