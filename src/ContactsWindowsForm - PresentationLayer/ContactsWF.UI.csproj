@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EE0B3D25-F4B8-4BED-83EC-C1B22495A7B4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ContactsWindowsForm___PresentationLayer</RootNamespace>
+    <AssemblyName>ContactsWindowsForm - PresentationLayer</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyOwnForms\frmSearch.Events.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyOwnForms\Add_Edit_Contact.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyOwnForms\Add_Edit_Contact.Designer.cs">
+      <DependentUpon>Add_Edit_Contact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyOwnForms\frmListContacts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyOwnForms\frmListContacts.Designer.cs">
+      <DependentUpon>frmListContacts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyOwnForms\frmSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyOwnForms\frmSearch.Designer.cs">
+      <DependentUpon>frmSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyOwnForms\MDIParent1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyOwnForms\MDIParent1.Designer.cs">
+      <DependentUpon>MDIParent1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MyOwnForms\ShowContactInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyOwnForms\ShowContactInfo.Designer.cs">
+      <DependentUpon>ShowContactInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyOwnForms\ShowContactInfo.Events.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="MyOwnForms\Add_Edit_Contact.resx">
+      <DependentUpon>Add_Edit_Contact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyOwnForms\frmListContacts.resx">
+      <DependentUpon>frmListContacts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyOwnForms\frmSearch.resx">
+      <DependentUpon>frmSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyOwnForms\MDIParent1.resx">
+      <DependentUpon>MDIParent1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="MyOwnForms\ShowContactInfo.resx">
+      <DependentUpon>ShowContactInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ContactsBusinessLayer\Contacts.BL.csproj">
+      <Project>{189fe552-7517-415d-a714-f0b3140a48ae}</Project>
+      <Name>Contacts.BL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
