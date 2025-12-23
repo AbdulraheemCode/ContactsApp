@@ -353,6 +353,11 @@ namespace ContactsConsoleApp_2
             Console.WriteLine("This is Test2 FUN");
         }
 
+        public static int GetStringLenght(string S1)
+        {
+            return S1.Length;
+        }
+
 
         static void Main(string[] args)
         {
