@@ -353,17 +353,23 @@ namespace ContactsConsoleApp_2
             Console.WriteLine("This is Test2 FUN");
         }
 
-        public static int GetStringLenght(string S1)
+        public static void GetStringLenght(string S1)
         {
-            return S1.Length;
+            Console.WriteLine("S1 Length = {0}", S1.Length);
+        }
+
+        public static void Block_Code()
+        {
+            Console.WriteLine("This is a Block Of Code");
         }
 
 
         static void Main(string[] args)
         {
 
-            TEST_FUN();
-            TEST2_FUN();
+            //TEST_FUN();
+            //TEST2_FUN();
+            Block_Code();
 
             /*
             //TestFindContact(1);
