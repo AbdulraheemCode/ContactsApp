@@ -358,6 +358,7 @@ namespace ContactsConsoleApp_2
             return S1.Length;
         }
 
+
         static void Main(string[] args)
         {
 
