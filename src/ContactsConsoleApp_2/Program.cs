@@ -348,10 +348,17 @@ namespace ContactsConsoleApp_2
             Console.WriteLine("This is a Test Function");
         }
 
+        public static void TEST2_FUN()
+        {
+            Console.WriteLine("This is Test2 FUN");
+        }
+
+
         static void Main(string[] args)
         {
 
             TEST_FUN();
+            TEST2_FUN();
 
             /*
             //TestFindContact(1);
