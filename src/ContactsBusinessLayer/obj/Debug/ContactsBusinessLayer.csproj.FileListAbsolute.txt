@@ -1,9 +1,0 @@
-C:\Users\admin\source\repos\ContactsBusinessLayer\bin\Debug\ContactsBusinessLayer.dll
-C:\Users\admin\source\repos\ContactsBusinessLayer\bin\Debug\ContactsBusinessLayer.pdb
-C:\Users\admin\source\repos\ContactsBusinessLayer\bin\Debug\ContactDataAccessLayer.dll
-C:\Users\admin\source\repos\ContactsBusinessLayer\bin\Debug\ContactDataAccessLayer.pdb
-C:\Users\admin\source\repos\ContactsBusinessLayer\obj\Debug\ContactsBusinessLayer.csproj.AssemblyReference.cache
-C:\Users\admin\source\repos\ContactsBusinessLayer\obj\Debug\ContactsBusinessLayer.csproj.CoreCompileInputs.cache
-C:\Users\admin\source\repos\ContactsBusinessLayer\obj\Debug\Contacts.DFB66D76.Up2Date
-C:\Users\admin\source\repos\ContactsBusinessLayer\obj\Debug\ContactsBusinessLayer.dll
-C:\Users\admin\source\repos\ContactsBusinessLayer\obj\Debug\ContactsBusinessLayer.pdb
