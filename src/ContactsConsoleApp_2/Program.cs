@@ -368,7 +368,7 @@ namespace ContactsConsoleApp_2
         {
 
 
-            int Number = 5000;
+            int Number = 6000;
             Console.WriteLine("Number Value = {0}\n", Number);
 
             Block_Code();
