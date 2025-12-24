@@ -294,23 +294,6 @@ namespace ContactsConsoleApp_2
             return Arr;
         }
 
-        public static int SumEvenNumbersOfArray(int[] arr)
-        {
-            int SumEvenArr = 0;
-
-            for (int i = 0; i < arr.Length; i++)
-            {
-
-                if (arr[i] % 2 == 0) 
-                {
-                    SumEvenArr += arr[i];
-                    continue;
-                }
-            }
-
-            return SumEvenArr;
-        }
-
         public static int SumOddNumbersOfArray(int[] arr)
         {
             int SumOddArr = 0;
