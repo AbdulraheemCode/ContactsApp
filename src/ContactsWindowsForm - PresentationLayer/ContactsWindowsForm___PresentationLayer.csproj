@@ -46,12 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MyOwnForms\frmSearch.Events.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="MyOwnForms\Add_Edit_Contact.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,12 +57,6 @@
     </Compile>
     <Compile Include="MyOwnForms\frmListContacts.Designer.cs">
       <DependentUpon>frmListContacts.cs</DependentUpon>
-    </Compile>
-    <Compile Include="MyOwnForms\frmSearch.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MyOwnForms\frmSearch.Designer.cs">
-      <DependentUpon>frmSearch.cs</DependentUpon>
     </Compile>
     <Compile Include="MyOwnForms\MDIParent1.cs">
       <SubType>Form</SubType>
@@ -92,9 +80,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MyOwnForms\frmListContacts.resx">
       <DependentUpon>frmListContacts.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MyOwnForms\frmSearch.resx">
-      <DependentUpon>frmSearch.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MyOwnForms\MDIParent1.resx">
       <DependentUpon>MDIParent1.cs</DependentUpon>

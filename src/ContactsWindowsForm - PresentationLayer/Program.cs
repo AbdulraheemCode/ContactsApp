@@ -17,7 +17,7 @@ namespace ContactsWindowsForm___PresentationLayer
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmListContacts());
+            Application.Run(new MDIParent1());
         }
     }
 }

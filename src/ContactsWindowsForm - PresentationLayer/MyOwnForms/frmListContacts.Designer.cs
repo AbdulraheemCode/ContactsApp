@@ -33,11 +33,10 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmListContacts));
             this.dgvAllContacts = new System.Windows.Forms.DataGridView();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.btnAddNewContact = new System.Windows.Forms.Button();
-            this.btnSearch = new System.Windows.Forms.Button();
             this.showContactToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deleteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnAddNewContact = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAllContacts)).BeginInit();
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -68,28 +67,6 @@
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(149, 70);
             // 
-            // btnAddNewContact
-            // 
-            this.btnAddNewContact.Font = new System.Drawing.Font("Led Italic Font", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddNewContact.Location = new System.Drawing.Point(719, 23);
-            this.btnAddNewContact.Name = "btnAddNewContact";
-            this.btnAddNewContact.Size = new System.Drawing.Size(199, 45);
-            this.btnAddNewContact.TabIndex = 2;
-            this.btnAddNewContact.Text = "Add New Contact";
-            this.btnAddNewContact.UseVisualStyleBackColor = true;
-            this.btnAddNewContact.Click += new System.EventHandler(this.btnAddNewContact_Click);
-            // 
-            // btnSearch
-            // 
-            this.btnSearch.Font = new System.Drawing.Font("Led Italic Font", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSearch.Location = new System.Drawing.Point(493, 23);
-            this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(199, 45);
-            this.btnSearch.TabIndex = 3;
-            this.btnSearch.Text = "Search";
-            this.btnSearch.UseVisualStyleBackColor = true;
-            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
-            // 
             // showContactToolStripMenuItem
             // 
             this.showContactToolStripMenuItem.Image = global::ContactsWindowsForm___PresentationLayer.Properties.Resources.logout;
@@ -114,12 +91,22 @@
             this.deleteToolStripMenuItem.Text = "Delete";
             this.deleteToolStripMenuItem.Click += new System.EventHandler(this.deleteToolStripMenuItem_Click);
             // 
+            // btnAddNewContact
+            // 
+            this.btnAddNewContact.Font = new System.Drawing.Font("Led Italic Font", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddNewContact.Location = new System.Drawing.Point(719, 23);
+            this.btnAddNewContact.Name = "btnAddNewContact";
+            this.btnAddNewContact.Size = new System.Drawing.Size(199, 45);
+            this.btnAddNewContact.TabIndex = 2;
+            this.btnAddNewContact.Text = "Add New Contact";
+            this.btnAddNewContact.UseVisualStyleBackColor = true;
+            this.btnAddNewContact.Click += new System.EventHandler(this.btnAddNewContact_Click);
+            // 
             // frmListContacts
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(944, 444);
-            this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.btnAddNewContact);
             this.Controls.Add(this.dgvAllContacts);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -143,7 +130,6 @@
         private System.Windows.Forms.ToolStripMenuItem deleteToolStripMenuItem;
         private System.Windows.Forms.Button btnAddNewContact;
         private System.Windows.Forms.ToolStripMenuItem showContactToolStripMenuItem;
-        private System.Windows.Forms.Button btnSearch;
     }
 }
 

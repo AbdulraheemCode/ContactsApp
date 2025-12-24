@@ -367,8 +367,7 @@ namespace ContactsConsoleApp_2
         static void Main(string[] args)
         {
 
-            //TEST_FUN();
-            //TEST2_FUN();
+            
             Block_Code();
 
             /*
@@ -398,4 +397,8 @@ namespace ContactsConsoleApp_2
 
 
     }
+
+
 }
+
+
