@@ -367,7 +367,10 @@ namespace ContactsConsoleApp_2
         static void Main(string[] args)
         {
 
-            
+
+            int Number = 1000;
+            Console.WriteLine("Number Value = {0}\n", Number);
+
             Block_Code();
 
             /*
