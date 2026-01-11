@@ -346,6 +346,11 @@ namespace ContactsConsoleApp_2
             Console.WriteLine("This is a Block Of Code");
         }
 
+        public static void Block_Code2()
+        {
+            Console.WriteLine("This is Procecer Of Block Of Code (2)");
+        }
+
 
         static void Main(string[] args)
         {
